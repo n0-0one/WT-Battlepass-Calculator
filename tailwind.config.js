@@ -8,31 +8,29 @@ export default {
   theme: {
     extend: {
       colors: {
-        wt: {
-          dark: '#0c0e12',
-          card: '#12161f',
-          surface: '#181e2b',
-          border: '#263147',
-          gold: '#e5a93c',
-          goldLight: '#fcd34d',
-          goldDark: '#b47818',
-          accent: '#d97706',
-          bronze: '#92400e',
-          slate: '#334155',
-          steel: '#64748b',
-          silver: '#94a3b8',
+        dark: {
+          bg: '#212529',
+          surface: '#1a1d20',
+          card: '#2b3035',
+          header: '#212529',
+          border: '#495057',
+          borderLight: 'rgba(255, 255, 255, 0.15)',
+          muted: '#adb5bd',
+          text: '#dee2e6',
+          light: '#f8f9fa',
+        },
+        bs: {
+          info: '#0dcaf0',
+          warning: '#ffc107',
+          success: '#198754',
+          danger: '#dc3545',
+          primary: '#0d6efd',
         }
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'],
-        mono: ['JetBrains Mono', 'Fira Code', 'Consolas', 'monospace'],
+        sans: ['system-ui', '-apple-system', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', 'sans-serif'],
+        mono: ['SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
       },
-      boxShadow: {
-        'glow-gold': '0 0 20px -3px rgba(229, 169, 60, 0.25)',
-        'glow-emerald': '0 0 20px -3px rgba(16, 185, 129, 0.25)',
-        'glow-rose': '0 0 20px -3px rgba(244, 63, 94, 0.25)',
-        'tactical': '0 4px 20px -2px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(38, 49, 71, 0.5)',
-      }
     },
   },
   plugins: [],
